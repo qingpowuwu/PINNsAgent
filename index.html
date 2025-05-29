@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="PINNsAgent: Automated PDE Surrogation with Large Language Models">
+  <meta name="keywords" content="PINNs, PDE, Surrogate Model, Large Language Models, Scientific Machine Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PINNsAgent: Automated PDE Surrogation with Large Language Models</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/PINNsAgent_ICON.png">
+</head>
+<body>
+  <!-- Header -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              <span class="gradient-text">PINNsAgent:</span> Automated PDE Surrogation with Large Language Models
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a href="https://github.com/qingpowuwu" target="_blank">Qingpo Wuwu*</a>,</span>
+              <span class="author-block">Chonghan Gao*,</span>
+              <span class="author-block"><a href="https://tarpelite.github.io/" target="_blank">Tianyu Chen</a>,</span>
+              <span class="author-block">Yuekai Zhang,</span>
+              <span class="author-block">Jianing Wang,</span>
+              <span class="author-block"><a href="https://myjianxin.github.io/" target="_blank">Jianxin Li</a>,</span>
+              <span class="author-block"><a href="https://www.zhouhaoyi.com/" target="_blank">Haoyi Zhou</a>,</span>
+              <span class="author-block"><a href="https://www.shanghangzhang.com/" target="_blank">Shanghang Zhang†</a></span>
+            </div>
+            <div class="is-size-5 publication-affiliations">
+              Peking University &nbsp;|&nbsp; Beihang University
+            </div>
+            <div class="publication-footnotes is-size-6" style="margin-bottom: 12px;">
+              <p>*Equal contribution</p>
+              <p>†Corresponding author</p>
+            </div>
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2501.12053" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark" style="pointer-events:none;opacity:0.6;">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code Coming Soon</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="abstract-section" class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-10">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+            <p>
+                Solving partial differential equations (PDEs) using neural methods has been a long-standing scientific and engineering research pursuit. Physics-Informed Neural Networks (PINNs) have emerged as a promising alternative to traditional numerical methods for solving PDEs. However, the gap between domain-specific knowledge and deep learning expertise often limits the practical application of PINNs. Previous works typically involve manually conducting extensive PINNs experiments and summarizing heuristic rules for hyperparameter tuning.
+            </p>
+
+            <!-- Pipeline -->
+            <div class="pipeline-image" style="margin: 2rem 0;">
+                <img src="./static/images/2_PINNsAgent.png" alt="PINNsAgent Pipeline" style="max-width:100%;border-radius:8px;" />
+                <div class="has-text-centered is-size-6" style="margin-top:0.5rem;">
+                <b>PINNsAgent</b> leverages large language models to automate the surrogation process for complex PDEs, enabling rapid and accurate scientific simulations with minimal human intervention.
+                </div>
+            </div>
+
+            <p>
+                In this work, we introduce <em>PINNsAgent</em>, a novel surrogation framework that leverages large language models (LLMs) and utilizes PINNs as a foundation to bridge the gap between domain-specific knowledge and deep learning. Specifically, <em>PINNsAgent</em> integrates (1) Physics-Guided Knowledge Replay (PGKR), which encodes the essential characteristics of PDEs and their associated best-performing PINNs configurations into a structured format, enabling efficient knowledge transfer from solved PDEs to similar problems and (2) Memory Tree Reasoning, a strategy that effectively explores the search space for optimal PINNs architectures. By leveraging LLMs and exploration strategies, <em>PINNsAgent</em> enhances the automation and efficiency of PINNs-based solutions. We evaluate <em>PINNsAgent</em> on 14 benchmark PDEs, demonstrating its effectiveness in automating the surrogation process and significantly improving the accuracy of PINNs-based solutions.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- BibTeX Section -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column is-11 content">
+          <h2 class="title">BibTeX</h2>
+          <pre style="border-radius: 6px; background: linear-gradient(to right, rgba(255,243,206,0.556) 0%,rgba(255,240,245,0.7) 50%,rgba(255,245,250,0.7) 100%); padding: 20px; color: black;"><code>@article{wuwu2025pinnsagent,
+  title={PINNsAgent: Automated PDE Surrogation with Large Language Models},
+  author={Wuwu, Qingpo and Gao, Chonghan and Chen, Tianyu and Huang, Yihang and Zhang, Yuekai and Wang, Jianing and Li, Jianxin and Zhou, Haoyi and Zhang, Shanghang},
+  journal={arXiv: 2501.12053},
+  year={2025}
+}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8 has-text-centered">
+          <div class="content">
+            <div class="mb-4">
+              <a class="icon-link" href="https://arxiv.org/abs/2501.12053" target="_blank">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+              <a class="icon-link" href="#" style="pointer-events:none;opacity:0.6;">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <p>
+              This website template is adapted from <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">Nerfies</a>. We appreciate the authors for sharing their code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
