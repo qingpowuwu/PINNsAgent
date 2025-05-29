@@ -12,8 +12,9 @@ Solving partial differential equations (PDEs) using neural methods has been a lo
 
 ```bibtex
 @article{wuwu2025pinnsagent,
-  title={PINNsAgent: Automated PDE Surrogation with Large Language Models},
-  author={Wuwu, Qingpo and Gao, Chonghan and Chen, Tianyu and Huang, Yihang and Zhang, Yuekai and Wang, Jianing and Li, Jianxin and Zhou, Haoyi and Zhang, Shanghang},
-  journal={arXiv:2501.12053},
-  year={2025}
+  title   = {PINNsAgent: Automated PDE Surrogation with Large Language Models},
+  author  = {Wuwu, Qingpo and Gao, Chonghan and Chen, Tianyu and Huang, Yihang and Zhang, Yuekai and Wang, Jianing and Li, Jianxin and Zhou, Haoyi and Zhang, Shanghang},
+  journal = {arXiv preprint arXiv:2501.12053},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2501.12053}
 }
