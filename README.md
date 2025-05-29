@@ -1,6 +1,6 @@
 # PINNsAgent: Automated PDE Surrogation with Large Language Models
 
-[**Project Page**](https://qingpowuwu.github.io/PINNsAgent/) | [**arXiv Paper**](https://arxiv.org/abs/2501.12053)
+#### [Project Page](https://qingpowuwu.github.io/PINNsAgent/) | [**arXiv Paper**](https://arxiv.org/abs/2501.12053)
 
 ![PINNsAgent Pipeline](./static/images/2_PINNsAgent.png)
 
